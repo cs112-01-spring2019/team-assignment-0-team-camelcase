@@ -5,6 +5,7 @@ class CoinTest{
 		for(int i =0; i<10;i++){
 			myCoin.flip();
 			System.out.println(myCoin);
+			System.out.println(myCoin.isHeads());
 		}
 	}
 

@@ -15,6 +15,9 @@ class Coin{
 			value = 1;
 		}
 	}
+	public boolean isHeads(){
+		return value == HEADS;
+	}
 	public String toString(){
 		if(value ==HEADS)
 			return "Heads";
